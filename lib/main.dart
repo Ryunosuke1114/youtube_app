@@ -26,6 +26,9 @@ class App extends StatelessWidget {
         ),
         body: Container(
           child: Column(
+            children: <Widget>[
+              Text("ワンちゃんしか勝たん"),
+            ],
 
 
         ),
@@ -34,6 +37,8 @@ class App extends StatelessWidget {
     );
   }
 }
+
+
 
 
 
